@@ -1,0 +1,35 @@
+{
+  "accounts": {
+    "load": "http://localhost:3005/accounts",
+    "create": "http://localhost:3005/accounts/create",
+    "update": "http://localhost:3005/accounts/",
+    "remove": "http://localhost:3005/accounts/",
+    "search": "http://localhost:3005/accounts/by_name/"
+  },
+  "groups": {
+    "load"  : "http://localhost:3005/groups/by_account/",
+    "create": "http://localhost:3005/groups",
+    "update": "http://localhost:3005/groups/",
+    "remove": "http://localhost:3005/groups/",
+    "search": "http://localhost:3005/groups/by_name/"
+  },
+  "path": {
+    "load"  : "http://localhost:3005/groups/path/",
+    "create": "http://localhost:3005/groups/path/",
+    "update": "http://localhost:3005/groups/path/"
+  },
+  "drivers": {
+    "load"  : "http://localhost:3005/drivers/group_id/",
+    "create": "http://localhost:3005/drivers/",
+    "update": "http://localhost:3005/drivers/",
+    "remove": "http://localhost:3005/drivers/",
+    "search": "http://localhost:3005/drivers/",
+    "rate": "http://localhost:3005/drivers/"
+  },
+  "cars": {
+    "load"  : "http://localhost:3005/cars/group_id/",
+    "create": "http://localhost:3005/cars/",
+    "update": "http://localhost:3005/cars/",
+    "remove": "http://localhost:3005/cars/"
+  }
+}
